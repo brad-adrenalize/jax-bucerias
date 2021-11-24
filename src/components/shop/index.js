@@ -2,7 +2,9 @@ import React from 'react'
 
 const Shop = () => {
     return(
-        <div className="text-center">Coming Soon</div>
+        <div className="text-center">
+            {/* Shop Page Component Body */}
+        </div>
     )
 }
 

@@ -2,7 +2,9 @@ import React from 'react'
 
 const Vip = () => {
     return(
-        <div>VIP</div>
+        <div>
+            {/* VIP Page Component Body */}
+        </div>
     )
 }
 
