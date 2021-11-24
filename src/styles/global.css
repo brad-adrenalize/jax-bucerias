@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Staatliches;
+    src: url('../assets/fonts/Staatliches-Regular.ttf');
+}
+
+@font-face {
+    font-family: OpenSansLight;
+    src: url('../assets/fonts/OpenSansCondensed-Light.ttf');
+}
+
+@font-face {
+    font-family: OpenSansBold;
+    src: url('../assets/fonts/OpenSansCondensed-Bold.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html { 
+    height: 100vh; 
+    overflow: hidden;
+    width: 100%;
+}
+
+body{
+    height: 100%;
+    position: fixed;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    color:white;
+    font-family: OpenSansLight;
+}
+
+/* Safari */
+:-webkit-full-screen {
+    @apply text-red-600;
+  }
+  
+  /* IE11 */
+  :-ms-fullscreen {
+    @apply text-red-600;
+  }
+  
+  /* Standard syntax */
+  :fullscreen {
+    @apply text-red-600;
+  }
+
+h1,h2{
+    font-family: Staatliches;
+}
+
+h3,h4,h5{
+    font-family: OpenSansBold;
+}
+
+p{
+    font-family: OpenSansLight;
+}
+
+.menu-link-selected-icon{
+    @apply filter drop-shadow-md;
+}
+
+.menu-link-selected-text{
+    @apply text-red-600;
+}
