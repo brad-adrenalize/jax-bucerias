@@ -70,3 +70,6 @@ yarn-error.log
 
 #GraphCMS Fragments
 graphcms-fragments
+
+#JSON Lock
+package-lock.json
