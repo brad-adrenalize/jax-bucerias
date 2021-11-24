@@ -20,7 +20,7 @@ module.exports = {
       xxl: '1536px'
     },
     colors: {
-      // Set TW Colors
+      // Set Tailwind Colors
       primary: colors.red,
       secondary: colors.black,
       blue: colors.sky,
