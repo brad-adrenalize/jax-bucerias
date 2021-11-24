@@ -1,57 +1,45 @@
+/* Require Tailwind Preflight Components */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Add Staatliches Local Font */
 
 @font-face {
     font-family: Staatliches;
     src: url('../assets/fonts/Staatliches-Regular.ttf');
 }
 
+/* Add OpenSansLight Local Font */
+
 @font-face {
     font-family: OpenSansLight;
     src: url('../assets/fonts/OpenSansCondensed-Light.ttf');
 }
+
+/* Add OpenSansBold Local Font */
 
 @font-face {
     font-family: OpenSansBold;
     src: url('../assets/fonts/OpenSansCondensed-Bold.ttf');
 }
 
+/* Global Reset */
+
 * {
     margin: 0;
     padding: 0;
 }
 
-
-html { 
-    height: 100vh; 
-    overflow: hidden;
-    width: 100%;
-}
+/* Set Body Style */
 
 body{
-    height: 100%;
-    position: fixed;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
     color:white;
     font-family: OpenSansLight;
 }
 
-/* Safari */
-:-webkit-full-screen {
-    @apply text-red-600;
-  }
-  
-  /* IE11 */
-  :-ms-fullscreen {
-    @apply text-red-600;
-  }
-  
-  /* Standard syntax */
-  :fullscreen {
-    @apply text-red-600;
-  }
+/* Set Heading Fonts */
 
 h1,h2{
     font-family: Staatliches;
@@ -64,6 +52,8 @@ h3,h4,h5{
 p{
     font-family: OpenSansLight;
 }
+
+/* Add Menu Style */
 
 .menu-link-selected-icon{
     @apply filter drop-shadow-md;
