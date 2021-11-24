@@ -150,8 +150,6 @@ const Index = () => {
           <Home/>
         }
       </div>
-
-
     </PageWrapper>
 
   )
